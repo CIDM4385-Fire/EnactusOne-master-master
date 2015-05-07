@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="settings">
+		<Require type="widget" src="SlidingMenu" id="slidingMainView" />
+		<View id="mainView">
+			
+			<!--This is the blue status bar at the top of the mainView screen-->
+			<View id="mainTopBar">
+				
+				<View id="menuButton"/><!--This is the button for the menuView-->			
+				<Label id="header">Settings</Label>
+				<!--We will put the feed view here in this section below-->	
+			</View>
+		 </View>
+	   <Button id='logoutBtn'>Logout</Button>
+	</Window>
+</Alloy>

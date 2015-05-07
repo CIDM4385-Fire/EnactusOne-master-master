@@ -1,0 +1,35 @@
+//<!--Alonso-->
+
+//this is the tableView in the mainView.xml
+"#slidingMainView" : {
+	backgroundColor : "#0ee67b"
+},
+
+"#mainView":{
+	layout: 'vertical',
+	backgroundColor: '#253640 ',
+},
+//This is the blue bar in the mainview.xml
+"#mainTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#0096d6',
+	layout: 'horizontal',
+},
+//this is the picture of the button.
+"#menuButton":{
+	width: "60dp",
+	height: "60dp",
+	backgroundColor : "#0ee67b"
+},
+"#header" : {
+	color : '#8C000000',
+	font : {
+		fontSize : 28,
+		fontWeight : 'bold',		
+	},
+	left : '25%',
+}
+//<!--Alonso-->
+
+

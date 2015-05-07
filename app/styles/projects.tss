@@ -1,0 +1,59 @@
+//<!--Leeland-->
+
+//this is the tableView in the mainView.xml
+"#mainView":{
+	layout: 'vertical',
+	backgroundColor: 'white',
+},
+//This is the blue bar in the mainview.xml
+"#mainTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#00b100',
+	layout: 'horizontal'
+},
+//this is the picture of the button.
+"#menuButton":{
+	width: "60dp",
+	height: "60dp"
+},
+"#header" : {
+	color : '#8C000000',
+	font : {
+		fontSize : 28,
+		fontWeight : 'bold',		
+	},
+	left : '25%',
+},
+"projects":{
+	backgroundColor:"#253640"
+},
+"Label":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font:{
+		fontSize: "18sp",
+	},
+	textAlign: 'center'
+}
+'Label[platform=android]':{
+	color: '#253640 '
+},
+'Window[platform=android]':{
+	modal: false
+},
+'TextField':{
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderColor:'Black'
+},
+'TextField[platform=android]':{
+	borderRadius: 6,
+	borderColor: 'black',
+	borderWidth: 1
+},
+'ImageView[platform=ios]':{
+	preventDefaultImage: true
+}
+
+//<!--Leeland-->

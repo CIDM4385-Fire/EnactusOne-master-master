@@ -1,0 +1,22 @@
+<!--Leeland-->
+<Alloy>
+	<Window id="projects">
+		<View id="mainView">
+			<Require type="widget" src="SlidingMenu" id="slidingMainView" />
+			<!--This is the blue status bar at the top of the mainView screen-->
+			<View id="mainTopBar">
+				
+				<View id="menuButton"/><!--This is the button for the menuView-->			
+				<Label id="header">Projects</Label>
+			</View>			
+		</View>
+		<Label id="titleLabel" text="PROJECT MENU" top="10" width="200" height="50" />
+			<Button id="button1" onClick="doClick1" title="Project 1" top="70" width="100" height="50" left="20" />
+			<Button id="button2" onClick="doClick2" title="Project 2" top="70" width="100" height="50" right="20" />
+			<Button id="button3" onClick="doClick3" title="Project 3" top="130" width="100" height="50" left="20" />
+			<Button id="button4" onClick="doClick4" title="Project 4" top="130" width="100" height="50" right="20" />
+			<Button id="button5" onClick="doClick5" title="Project 5" top="190" width="100" height="50" left="20" />
+			<Button id="button6" onClick="doClick6" title="Project 6" top="190" width="100" height="50" right="20" />
+	</Window>
+</Alloy>
+<!--Leeland-->
